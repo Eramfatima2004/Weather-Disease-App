@@ -62,7 +62,7 @@ app.post("/api/risk", (req, res) => {
 
   res.json(risk);
 });
-
+//server at port
 app.listen(process.env.PORT, () =>
   console.log("Server running on port 5000")
 );
